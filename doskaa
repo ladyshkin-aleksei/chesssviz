@@ -1,0 +1,37 @@
+include <stdio.h>
+
+void initDeck(char deck[8][8])
+{
+char c[]={'l','k','s','f','q','s','k','l'}
+fot int (c=0; c<8'; c++)
+{
+deck[0][c]=c[c];
+deck[7][c]=c[c]-32;
+deck[1][c]='p';
+deck[6][c]='p'-32;
+for (int i=2; i<6; i++)
+{
+deck [i][c]='';
+}
+}
+}
+
+void printDeck (char deck[8][8])
+{
+for (int n=0; n<8; n++ )
+{
+for (int c=0; c<8; c++0)
+{
+printf("%t", deck[n][c]);
+}
+printf("\n");
+}
+}
+
+int main ()
+{
+char deck[8][8];
+initDeck(deck);
+printDeck(deck);
+}
+}
